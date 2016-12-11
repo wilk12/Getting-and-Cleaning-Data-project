@@ -59,7 +59,14 @@ These combined to create 561 variables in the original data set.
 5. From the data set in step 4, creates a second, independent tidy data set with the average..
    of each variable for each activity and each subject.
 
-
+### Steps Used to Transform Data in the run_analysis.R file
+1. Download zipped data, unzip, and read required .txt files into data frames
+2. Add names to activities from activity labels.
+3. Combine test and train data
+4. Create clearer variable names and take those names from features and apply to data frame of values
+5. Subset data to include only measurements of mean and std
+6. Add the variables containing subject and activity to the data
+7. Aggregate data by subject and activity using the mean function.
 
 
 
