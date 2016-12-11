@@ -47,3 +47,24 @@ is the original data set.
 
 These combined to create 561 variables in the original data set.
 
+### The Measurements that Were Kept for the Tidy Data Set
++ Mean(): Mean value
++ std(): Standard deviation
+
+### Transformations to original Data
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the average..
+   of each variable for each activity and each subject.
+
+
+
+
+
+
+
+
+
+
