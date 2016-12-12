@@ -1,6 +1,8 @@
 # tidy-data-project
 
-The assignment was to create a tidy data set that future analyisis could be performed on.
+The assignment was to create a tidy data set that future analyisis could be performed on. 
+A further explanation of the variables is in the CodeBook.md file.  
+If you run the code in the run_analysis.R file you will get the tidy data set.
 
 
 ## Overview of Obtaining, Cleaning and Aggregating the Data
