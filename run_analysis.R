@@ -54,4 +54,4 @@ x_full$subject <- as.factor(subject_full$subject)
 # create the tidy dataset with mean for each measurment arranged by subject and activity
 tidyData <- aggregate(. ~ subject+activity, data = x_full, FUN = mean)
 
-
+write.table(tidyDate, "tidy_data_set.txt", row.names = FALSE)
